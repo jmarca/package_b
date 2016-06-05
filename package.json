@@ -1,0 +1,14 @@
+{
+  "name": "package_b",
+  "version": "1.0.0",
+  "description": "package b dummy package",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "preinstall":"echo \"package b preinstall\" ",
+      "install":"echo \"package b install\" ",
+      "postinstall":"echo \"package b postinstall\" "
+  },
+  "author": "James E. Marca",
+  "license": "ISC"
+}
